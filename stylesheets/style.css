@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: red !important;
+}
+
+.navbar-brand img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.newsweek-logo {
+  width: 10rem;
+  object-fit: cover;
+}
