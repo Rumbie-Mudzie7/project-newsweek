@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
-.navbar {
+header {
   background-color: red !important;
+}
+
+.header-text {
+  color: white;
 }
 
 .navbar-brand img {
@@ -14,6 +18,8 @@
 }
 
 .newsweek-logo {
-  width: 10rem;
+  width: 25rem;
   object-fit: cover;
+  text-align: center;
 }
+
