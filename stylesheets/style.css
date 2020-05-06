@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
+body { 
+  font-family: 'Roboto', sans-serif;
+}
+
 header {
-  background-color: red !important;
+  background-color: red;
 }
 
 .header-text {
@@ -23,3 +27,18 @@ header {
   text-align: center;
 }
 
+.login-btn {
+  background-color: red;
+  color: #fff;
+}
+
+.subscribe-btn {
+  background-color: #fff;
+  color: red;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
