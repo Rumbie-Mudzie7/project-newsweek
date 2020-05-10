@@ -1,0 +1,21 @@
+@media screen and (max-width: 1125px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .navbar {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .hide {
+    display: none !important;
+  }
+
+  .nav-btn {
+    position: absolute;
+    right: 2.5rem;
+    top: -2rem;
+  }
+}

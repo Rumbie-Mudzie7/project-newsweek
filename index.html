@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/css-reset.css" />
     <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/media-queries.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/9b6ee7cdf7.js"
@@ -15,64 +16,69 @@
   </head>
   <body>
     <header>
-    <div class="container-fluid">  
+    <div class="container-fluid position-relative w-100 pb-2">  
     <div class="row">
-      <div class="col-lg-4">
-      <a href="#" class="navbar-brand"><img src="./images/weather.png" alt="weather-image"></a>
-      <h1 class="header-text">16&deg; Johannesburg, ZA</h1>
-      <h1 class="header-text"><time datetime="05-05-2020">Tue, May 05, 2020</time></h1>
+      <div class="col-4 d-flex align-items-center hide weather-wrapper">
+        <p><span><img class="img-responsive navbar-brand" src="./images/weather.png" alt="weather-image"></span><span class="header-text-1">16&deg; Johannesburg, ZA &nbsp;<i class="fas fa-angle-right"></i></span></p>
+        <p><span class="header-text-2" ><time datetime="05-05-2020">Tue, May 05, 2020</time></span></p>
     </div>
-      <div class="col-lg-4 pt-4">
+      <div class="col-4 d-flex justify-content-center align-items-center pt-4">
        <a href="#"><img class ="newsweek-logo" src="./images/Newsweek_Logo.svg" alt="newsweek-logo"></a>
       </div>
-      <div class="nav-btn col-lg-4 pt-5">
-      <button type="button" class="btn login-btn">LOGIN</button>
-      <button type="button" class="btn subscribe-btn">SUBSCRIBE</button>
+      <div class="nav-btn col-4 d-flex justify-content-center align-items-center pt-5">
+      <button type="button" class="btn btn-sm d-md-table mx-auto login-btn">LOGIN</button>
+      <button type="button" class="btn btn-sm d-md-table mx-auto subscribe-btn">SUBSCRIBE <i class="fas fa-angle-right"></i></button>
+      <button type="button" class="btn menu-btn"><i class="fas fa-bars"></i></button>
       </div>
-      <div class="collapse navbar-collapse"></div>
+            
       </div>
       </div>
-      <div class="row">
-    <nav class="navbar navbar-expand-sm d-flex justify-content-between">
+      <div class="row nav-row">
+        <p class="corner-shape"></p>
+     <nav class="navbar navbar-expand-sm d-flex justify-content-between pt-4 header-nav">
       <ul class="nav">
-        <li class="nav-item">
+        <li class="nav-item nav-border">
           <a class="nav-link" href="#">U.S.</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item nav-border">
           <a class="nav-link" href="#">World</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item nav-border">
           <a class="nav-link" href="#">Business</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item nav-border">
           <a class="nav-link" href="#">Tech&Science</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item nav-border">
           <a class="nav-link" href="#">Culture</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item nav-border">
           <a class="nav-link" href="#">Newsgeek</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item nav-border">
           <a class="nav-link" href="#">Sports</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item nav-border">
           <a class="nav-link" href="#">Health</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item nav-border">
           <a class="nav-link" href="#">The Debate</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item nav-border">
           <a class="nav-link" href="#">Vantage</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Weather</a>
         </li>
-      </ul>
-    </nav>
-  </div>
+        <li class="nav-item pt-2 text-muted">
+         Search &nbsp;&nbsp;<i class="fas fa-search"></i>
+        </li>
+        </ul>
+      </nav> 
+    </div>
   </div> 
   </header>
+  <hr class="header-bar mt-0" /> 
 
    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
