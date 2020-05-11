@@ -16,12 +16,12 @@ header {
   color: white;
 }
 
-.navbar-brand {
+.img-responsive {
   position: absolute; 
   top: 1.1rem;
   float: left;
   width: 2rem;
-  height: 2.5rem;
+  height: 2rem;
 }
 
 .header-text-1 {
