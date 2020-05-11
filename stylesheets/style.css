@@ -17,7 +17,7 @@ header {
 }
 
 .img-responsive {
-  position: absolute; 
+  position: absolute;
   top: 1.1rem;
   float: left;
   width: 2rem;
@@ -93,4 +93,61 @@ header {
   right: 0;
   border-left: 12px solid white;
   border-top: 13px solid red;
+}
+
+.corner-img-text {
+  position: absolute;
+  top: 261px;
+  color: red;
+  background-color: #f7eee7;
+  padding: 0.5rem;
+  width: 5rem;
+}
+
+.corner-img-text-1 {
+  position: absolute;
+  top: 306px;
+  color: red;
+  background-color: #f7eee7;
+  padding: 0.5rem;
+  width: 5rem;
+}
+
+.featured-stories-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.featured-stories-text a {
+  text-decoration: none;
+  color: #000;
+}
+
+.featured-stories-text a:hover {
+  text-decoration: red underline;
+}
+
+.featured-stories-paragraph {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2rem;
+}
+
+.opinion-text {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  color: #000;
+}
+
+.opinion-text a {
+  color: #000;
+}
+
+.opinion-text a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.opinion-header {
+  font-size: 0.9rem;
 }
