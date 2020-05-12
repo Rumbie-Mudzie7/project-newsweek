@@ -96,8 +96,8 @@ header {
 }
 
 .corner-img-text {
-  position: absolute;
-  top: 261px;
+  position: relative;
+  top: -35px;
   color: red;
   background-color: #f7eee7;
   padding: 0.5rem;
@@ -150,4 +150,32 @@ header {
 
 .opinion-header {
   font-size: 0.9rem;
+}
+
+.heroes-label {
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  background-color: rgb(194, 204, 206);
+  top: -24px;
+  width: 80%;
+  padding: 0.3rem;
+}
+
+.heroes-label:hover {
+  background-color: #000;
+  color: rgb(185, 182, 182);
+  cursor: pointer;
+}
+
+.heroes-header {
+  position: relative;
+  top: -10px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heroes-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
 }
