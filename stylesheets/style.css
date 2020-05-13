@@ -71,6 +71,15 @@ header {
   background-color: #fff;
 }
 
+.opinion-text a {
+  color: #000;
+}
+
+.featured-stories-text a {
+  text-decoration: none;
+  color: #000;
+}
+
 .nav-row a:hover {
   color: red;
 }
@@ -118,11 +127,6 @@ header {
   font-weight: bold;
 }
 
-.featured-stories-text a {
-  text-decoration: none;
-  color: #000;
-}
-
 .featured-stories-text a:hover {
   text-decoration: red underline;
 }
@@ -133,13 +137,22 @@ header {
   line-height: 1.2rem;
 }
 
+.sponsored-img-text {
+  position: relative;
+  top: 267px;
+  color: rgb(104, 6, 233);
+  background-color: #f7eee7;
+  padding: 0.5rem;
+  width: 11rem;
+}
+
+/* .more-stories-text:hover {
+  text-decoration: red underline;
+} */
+
 .opinion-text {
   font-size: 0.9rem;
   line-height: 1.2rem;
-  color: #000;
-}
-
-.opinion-text a {
   color: #000;
 }
 
@@ -154,8 +167,35 @@ header {
   border-bottom: 3.5px solid #f94d5b;
 }
 
+.border-bottom-debate {
+  position: relative;
+  border-bottom: 4px rgb(218, 213, 213);
+  border-style: double;
+}
+
+.the-debate {
+  margin-top: -32px;
+  z-index: 100;
+  width: 35% !important;
+  height: 35% !important;
+}
+
+.the-debate-icon {
+  background-color: #000;
+  border-radius: 50%;
+  color: rgb(236, 221, 221);
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  padding: 0.9rem;
+}
+
 .opinion-header {
   font-size: 0.9rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .heroes-label {
