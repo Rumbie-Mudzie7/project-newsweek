@@ -148,6 +148,12 @@ header {
   color: red;
 }
 
+.border-bottom-danger {
+  position: relative;
+  bottom: -15px;
+  border-bottom: 3.5px solid #f94d5b;
+}
+
 .opinion-header {
   font-size: 0.9rem;
 }
