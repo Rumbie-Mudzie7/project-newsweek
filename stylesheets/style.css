@@ -80,6 +80,11 @@ header {
   color: #000;
 }
 
+.more-stories-text a {
+  text-decoration: none;
+  color: #000;
+}
+
 .nav-row a:hover {
   color: red;
 }
@@ -146,9 +151,9 @@ header {
   width: 11rem;
 }
 
-/* .more-stories-text:hover {
+.more-stories-text:hover {
   text-decoration: red underline;
-} */
+}
 
 .opinion-text {
   font-size: 0.9rem;
