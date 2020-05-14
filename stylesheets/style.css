@@ -173,11 +173,17 @@ header {
   border-style: double;
 }
 
+.border-bottom-danger-2 {
+  position: relative;
+  bottom: -15px;
+  border-top: 3.5px solid #7025c7;
+}
+
 .the-debate {
   margin-top: -32px;
   z-index: 100;
-  width: 35% !important;
-  height: 35% !important;
+  width: 4rem;
+  height: 4rem;
 }
 
 .the-debate-icon {
@@ -187,7 +193,8 @@ header {
   width: 3rem;
   height: 3rem;
   text-align: center;
-  padding: 0.9rem;
+  padding: 0.91rem;
+  margin-left: 7rem;
 }
 
 .opinion-header {
