@@ -85,6 +85,11 @@ header {
   color: #000;
 }
 
+.see-all-link a {
+  background-color: #dbdcdd;
+  color: #000;
+}
+
 .nav-row a:hover {
   color: red;
 }
@@ -133,8 +138,14 @@ header {
   color: red;
   background-color: #f7eee7;
   padding: 0.5rem;
-  z-index: -10;
-  /* width: 7rem; */
+}
+
+.corner-img-text-3 {
+  position: absolute;
+  top: 177px;
+  color: #fff;
+  background-color:red;
+  padding: 0.5rem;
 }
 
 .featured-stories-text {
@@ -155,7 +166,7 @@ header {
 .card-img-top {
   position: relative;
   top: -33px;
-}  
+}
 
 .sponsored-img-text {
   position: relative;
@@ -271,4 +282,18 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   line-height: 1.2rem;
+}
+
+.see-all-link a:hover {
+  text-decoration: none;
+}
+
+.magazine-label {
+  background-color: red;
+  color: white;
+}
+
+.magazine-label-2 {
+  background-color: #fff;
+  color: red;
 }
