@@ -201,6 +201,16 @@ header {
   width: 11rem;
 }
 
+.sponsored-img-text-2 {
+  position: absolute;
+  top: 84px;
+  z-index: 100;
+  color: rgb(104, 6, 233);
+  background-color: #f7eee7;
+  padding: 0.5rem;
+  width: 11rem;
+}
+
 .more-stories-text:hover {
   text-decoration: red underline;
 }
