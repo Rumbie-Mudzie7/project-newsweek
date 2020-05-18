@@ -310,3 +310,8 @@ header {
   background-color: #fff;
   color: red;
 }
+
+.section-heading {
+  font-size: 1.4rem;
+  color: red;
+}
