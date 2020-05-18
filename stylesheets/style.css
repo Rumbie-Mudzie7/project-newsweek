@@ -127,6 +127,16 @@ header {
   width: 5rem;
 }
 
+.corner-img-text-2 {
+  position: absolute;
+  top: 355px;
+  color: red;
+  background-color: #f7eee7;
+  padding: 0.5rem;
+  z-index: -10;
+  /* width: 7rem; */
+}
+
 .featured-stories-text {
   font-size: 1.4rem;
   font-weight: bold;
@@ -142,9 +152,25 @@ header {
   line-height: 1.2rem;
 }
 
+.card-img-top {
+  position: relative;
+  top: -33px;
+}  
+
 .sponsored-img-text {
   position: relative;
-  top: 267px;
+  top: 235px;
+  z-index: 100;
+  color: rgb(104, 6, 233);
+  background-color: #f7eee7;
+  padding: 0.5rem;
+  width: 11rem;
+}
+
+.sponsored-img-text-1 {
+  position: relative;
+  top: 159px;
+  z-index: 100;
   color: rgb(104, 6, 233);
   background-color: #f7eee7;
   padding: 0.5rem;
