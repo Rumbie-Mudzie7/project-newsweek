@@ -88,6 +88,12 @@ header {
 .see-all-link a {
   background-color: #dbdcdd;
   color: #000;
+  position: relative;
+  top: -3px;
+  display: block;
+  width: 100%;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
 }
 
 .featured-stories-text-2 a {
@@ -168,6 +174,19 @@ header {
 
 .featured-stories-text-2 a:hover {
   text-decoration: red underline;
+}
+
+.featured-stories-text-3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.featured-stories-text-3 a:hover {
+  text-decoration: red underline;
+}
+
+.featured-stories-text-3 a {
+  color: #000;
 }
 
 .featured-stories-paragraph {
@@ -309,6 +328,7 @@ header {
 
 .see-all-link a:hover {
   text-decoration: none;
+  background-color: rgb(173, 158, 158);
 }
 
 .magazine-label {
@@ -325,3 +345,39 @@ header {
   font-size: 1.4rem;
   color: red;
 }
+
+.subscribe-img {
+  position: absolute;
+  bottom: -11px;
+  left: 93px;
+}
+
+.subscribe-text {
+  color: red;
+}
+
+.subscribe-text-2 {
+  position: relative;
+  bottom: 191px;
+  margin-left: 18rem;
+}
+
+.subscribe-text-3 {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3rem;
+}
+
+.subscribe-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.6rem;
+  color: #000;
+}
+
+.subscribe-btn-2 {
+  background-color: red;
+  color: white;
+  padding: 0.7rem;
+}
+
+
