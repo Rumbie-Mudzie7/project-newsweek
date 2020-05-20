@@ -393,10 +393,24 @@ header {
   top: 1.7rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
+  color: grey;
 }
 
 .social-icons {
   position: relative;
   top: 0.4rem;
   font-size: 1.5rem;
+}
+
+.footer-links a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.footer-links-2 a {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  color: grey;
 }
