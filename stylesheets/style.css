@@ -278,6 +278,10 @@ header {
   height: 4rem;
 }
 
+.the-debate-img {
+  width: 40%;
+}
+
 .the-debate-icon {
   background-color: #000;
   border-radius: 50%;
