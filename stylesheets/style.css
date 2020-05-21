@@ -212,7 +212,7 @@ header {
 
 .sponsored-img-text-1 {
   position: relative;
-  top: 159px;
+  top: 162px;
   z-index: 100;
   color: rgb(104, 6, 233);
   background-color: #f7eee7;
@@ -222,7 +222,7 @@ header {
 
 .sponsored-img-text-2 {
   position: absolute;
-  top: 84px;
+  top: 85px;
   z-index: 100;
   color: rgb(104, 6, 233);
   background-color: #f7eee7;
@@ -230,8 +230,16 @@ header {
   width: 11rem;
 }
 
+.more-stories-img {
+  width: 20%;
+}
+
 .more-stories-text:hover {
   text-decoration: red underline;
+}
+
+.opinion-img {
+  width: 60px;
 }
 
 .opinion-text {
@@ -346,10 +354,19 @@ header {
   color: red;
 }
 
+.sports-img {
+  width: 30%;
+}
+
 .subscribe-img {
   position: absolute;
-  bottom: -11px;
-  left: 93px;
+  top: 1rem;
+  left: 62px;
+}
+
+.subscribe-img-text {
+  padding-right: 6rem;
+  padding-bottom: 1rem;
 }
 
 .subscribe-text {
@@ -357,9 +374,7 @@ header {
 }
 
 .subscribe-text-2 {
-  position: relative;
-  bottom: 191px;
-  margin-left: 18rem;
+  padding-right: 2rem;
 }
 
 .subscribe-text-3 {
@@ -380,12 +395,8 @@ header {
   padding: 0.7rem;
 }
 
-.newsletter-card {
-  top: 3rem;
-}
-
 .newsweek-footer-logo {
-  float: left;
+  float: left; 
 }
 
 .copyright-text {
@@ -402,7 +413,7 @@ header {
   font-size: 1.5rem;
 }
 
-.footer-links a {
+.footer-links {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   color: grey;
