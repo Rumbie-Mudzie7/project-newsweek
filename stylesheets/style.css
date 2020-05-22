@@ -135,7 +135,7 @@ header {
 
 .corner-img-text-1 {
   position: absolute;
-  top: 306px;
+  top: 241px;
   color: red;
   background-color: #f7eee7;
   padding: 0.5rem;
@@ -201,7 +201,7 @@ header {
 }
 
 .sponsored-img-text {
-  position: relative;
+  position: absolute;
   top: 235px;
   z-index: 100;
   color: rgb(104, 6, 233);
@@ -211,18 +211,18 @@ header {
 }
 
 .sponsored-img-text-1 {
-  position: relative;
-  top: 162px;
+  position: absolute;
+  bottom: 35px;
   z-index: 100;
   color: rgb(104, 6, 233);
   background-color: #f7eee7;
   padding: 0.5rem;
-  width: 11rem;
+  width: 14rem;
 }
 
 .sponsored-img-text-2 {
   position: absolute;
-  top: 85px;
+  top: 139px;
   z-index: 100;
   color: rgb(104, 6, 233);
   background-color: #f7eee7;
@@ -279,7 +279,7 @@ header {
 }
 
 .the-debate-img {
-  width: 40%;
+  width: 5.5rem;
 }
 
 .the-debate-icon {
@@ -290,7 +290,7 @@ header {
   height: 3rem;
   text-align: center;
   padding: 0.91rem;
-  margin-left: 7rem;
+  margin: auto;
 }
 
 .opinion-header {
@@ -359,7 +359,11 @@ header {
 }
 
 .sports-img {
-  width: 30%;
+  width: 6rem;
+}
+
+.insight-card {
+  max-width: 25rem;
 }
 
 .subscribe-img {

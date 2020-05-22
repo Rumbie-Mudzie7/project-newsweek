@@ -19,3 +19,19 @@
     top: -2rem;
   }
 }
+
+@media screen and (max-width: 991px) {
+  .sign-up {
+    max-width: 50%;
+    margin: 1.2rem 20% 1.2rem 23% !important;
+  }
+
+  footer {
+    font-size: 0.5rem;
+  }
+
+  .footer-links,
+  .footer-links-2 li a {
+    padding: 0 1rem 0 1rem;
+  }
+}
