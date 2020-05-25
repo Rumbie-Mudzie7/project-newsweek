@@ -37,6 +37,15 @@ header {
   font-weight: 100;
 }
 
+.header-2 {
+  height: 50px;
+}
+
+.header-2 .newsweek-logo {
+  width: 132px;
+  height: 20px;
+}
+
 .newsweek-logo {
   width: 100%;
   object-fit: cover;
