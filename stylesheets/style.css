@@ -118,9 +118,21 @@ header {
   margin-left: 0;
 }
 
+.topnav {
+  display: flex;
+  flex-flow: row nowrap;
+  width: calc(100% - 84px);
+}
+
+.topnav li {
+  flex-grow: 1;
+  text-align: center;
+}
+
 .nav-link {
   color: #000;
   font-weight: bold;
+  padding: 0 !important;
 }
 
 .corner-shape {
