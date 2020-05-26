@@ -15,7 +15,7 @@
     <title>Project-Newsweek</title>
   </head>
   <body>
-    <header class="header-1 d-sm-none d-md-block">
+    <header class="header-1 d-xs-none d-sm-none d-md-block">
     <div class="container-fluid position-relative w-100 pb-2">  
     <div class="row">
       <div class="col-4 d-flex align-items-center hide weather-wrapper">
@@ -78,7 +78,7 @@
     </div>
   
   </header>
-  <header class="header-2 align-items-center position-static d-sm-block d-md-none">
+  <header class="header-2 align-items-center position-static  d-xs-flex d-sm-block d-md-none">
       <div class="h-100 align-items-center d-flex justify-content-between px-3">
         <div class="left d-flex align-items-center">
           <div class="pr-3 logo-image">
@@ -86,10 +86,10 @@
           </div>
           <div class="weather d-flex">
             <i class="text-white fas fa-cloud-sun-rain"></i>
-            <p class="ml-2 text-white">16&deg; Johannesburg, Z.A>
+            <p class="ml-2 text-white">16&deg; Johannesburg, Z.A</p>
           </div>
         </div>
-        <div class="right">
+        <div class="right d-flex d-xs-flex justify-content-sm-center">
           <button type="button" class="btn btn-sm login-btn">LOGIN</button>
           <button type="button" class="  btn btn-sm subscribe-btn">SUBSCRIBE <i class="fas fa-angle-right"></i></button>
           <i class="ml-2 mr-2 text-white fas fa-bars"></i>
@@ -98,8 +98,18 @@
   </header>
   <hr class="header-bar mt-0" /> 
   <section class="container-fluid">
-    <div class="container-fluid mx-auto">
+     <div class="container-fluid mx-auto">
       <div class="container-fluid">
+        <div class="row">
+          <div class="col col-sm-12 d-md-none d-lg-none">
+            <div class="mb-2"><h1 class="display-6 text-muted">TOP STORY</h1></div>
+            <div><img class="img-fluid" src="./images/top-story-img.webp" alt="featured-stories">
+              <p class="corner-img-text-1">U.S.</p>
+              <h2 class="featured-stories-text mt-1"><a href="#">Pence to Return to White House, Not in Quarantine, After Aide Tests Positive for COVID-19</a></h2>
+              <p class="featured-stories-paragraph text-muted mt-2">"Vice President Pence has tested negative every single day and plans to be at the White House tomorrow," a spokesperson told Newsweek.</p>
+            </div>
+          </div>
+        </div>
       <div class="row">
         <div class="col col-md-6 col-lg-4">
           <div class="mb-2"><h1 class="display-6 text-muted">FEATURED STORIES</h1></div>

@@ -42,3 +42,16 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .header-1 {
+    display: none !important;
+  }
+
+  .header-2 {
+    display: flex;
+    width: 100%;
+    font-size: 0.8rem;
+    flex-flow: row nowrap;
+  }
+}
