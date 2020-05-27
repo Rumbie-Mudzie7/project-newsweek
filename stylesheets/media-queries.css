@@ -3,3 +3,17 @@
     padding: 0;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .media-top-story {
+    display: none;
+  }
+
+  .newsletter-media {
+    max-width: 50%;
+  }
+
+  .sign-up-media {
+    padding: 1rem 0 1rem 0;
+  }
+}
