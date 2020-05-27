@@ -31,6 +31,12 @@ header {
   font-size: 0.9rem;
 }
 
+.newsweek-logo {
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+}
+
 .header-text-2 {
   position: absolute;
   top: 3.6rem;
@@ -44,12 +50,6 @@ header {
 .header-2 .newsweek-logo {
   width: 132px;
   height: 20px;
-}
-
-.newsweek-logo {
-  width: 100%;
-  object-fit: cover;
-  text-align: center;
 }
 
 .nav-btn {
@@ -107,6 +107,17 @@ header {
 
 .featured-stories-text-2 a {
   color: #000;
+}
+
+.featured-stories-text-3 a {
+  color: #000;
+}
+
+.footer-links-2 a {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  color: grey;
 }
 
 .nav-row a:hover {
@@ -205,10 +216,6 @@ header {
 
 .featured-stories-text-3 a:hover {
   text-decoration: red underline;
-}
-
-.featured-stories-text-3 a {
-  color: #000;
 }
 
 .featured-stories-paragraph {
@@ -441,13 +448,6 @@ header {
 }
 
 .footer-links {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9rem;
-  color: grey;
-}
-
-.footer-links-2 a {
-  display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   color: grey;
