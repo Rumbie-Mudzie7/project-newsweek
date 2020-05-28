@@ -3,7 +3,7 @@ The Newsweek  cloning project is mainly based on integrating the Bootstrap frame
 
 ## Screenshot
 
-![Page screenshot](images/newsweek-desktop-screenshot.png)
+![Page screenshot](images/newsweek-desktop-view-screenshot.png)
 ![Page screenshot](images/tablet-view-screenshot.png)
 ![Page screenshot](images/mobile-view-screenshot-1.png)
 ![Page screenshot](images/mobile-view-screenshot-2.png)

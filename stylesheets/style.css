@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f8f6f6;
 }
 
 header {
@@ -77,7 +78,7 @@ header {
 }
 
 .nav-row {
-  background-color: #fff;
+  background-color: #f8f6f6;
 }
 
 .opinion-text a {
