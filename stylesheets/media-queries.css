@@ -17,3 +17,26 @@
     padding: 1rem 0 1rem 0;
   }
 }
+
+@media screen and (min-width: 360px) {
+  .subscribe-btn {
+    font-size: 0.64rem;
+    padding: 3px;
+  }
+
+  .login-btn {
+    font-size: 0.64rem;
+    padding-top: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .subscribe-btn {
+    font-size: 0.5rem;
+  }
+
+  .login-btn {
+    font-size: 0.64rem;
+    padding-top: 0.6rem;
+  }
+}
