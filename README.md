@@ -19,7 +19,7 @@ The Newsweek  cloning project is mainly based on integrating the Bootstrap frame
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/mugberto/the-next-web-page-clone/3866edfd04a9072e1b40335f27c8489503a554a9/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Rumbie-Mudzie7/project-newsweek/1d9ed4b9daf7511c1cf6af36247082a1e2cc8ec1/index.html)
 ​
 
 ## Getting Started
