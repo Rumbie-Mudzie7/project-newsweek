@@ -1,0 +1,2245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheets/css-reset.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/media-queries.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9b6ee7cdf7.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Project-Newsweek</title>
+  </head>
+  <body>
+    <section class="container bg-white">
+    <header class="header-1 mb-2">
+      <div class="header-2 align-items-center d-block d-lg-none">
+        <div
+          class="h-100 align-items-center d-flex justify-content-between px-3"
+        >
+          <div class="left d-flex align-items-center">
+            <div class="pr-3 logo-image">
+              <a href="#"
+                ><img
+                  class="newsweek-logo"
+                  src="./images/Newsweek_Logo.svg"
+                  alt="newsweek-logo"
+              /></a>
+            </div>
+            <div class="weather d-none d-sm-flex">
+              <i class="text-white fas fa-cloud-sun-rain"></i>
+              <p class="ml-2 text-white">16&deg; Johannesburg, Z.A</p>
+            </div>
+          </div>
+          <div class="right d-flex d-xs-flex justify-content-sm-center">
+            <button type="button" class="btn btn-sm login-btn">LOGIN</button>
+            <button type="button" class="btn btn-sm subscribe-btn">
+              SUBSCRIBE <i class="fas fa-angle-right"></i>
+            </button>
+            <i class="ml-2 mr-2 mt-2 text-white fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid d-none d-lg-block position-relative w-100 pb-2"
+      >
+        <div class="row">
+          <div class="col-4 d-md-none d-lg-block d-flex align-items-center hide weather-wrapper">
+            <p>
+              <span
+                ><img
+                  class="img-responsive navbar- brand"
+                  src="./images/weather.png"
+                  alt="weather-image" /></span
+              ><span class="header-text-1"
+                >16&deg; Johannesburg, ZA &nbsp;<i
+                  class="fas fa-angle-right"
+                ></i
+              ></span>
+            </p>
+            <p>
+              <span class="header-text-2"
+                ><time datetime="2020-05-05">Tue, May 05, 2020</time></span
+              >
+            </p>
+          </div>
+          <div
+            class="col-4 d-flex justify-content-center align-items-center pt-4"
+          >
+            <a href="#"
+              ><img
+                class="newsweek-logo"
+                src="./images/Newsweek_Logo.svg"
+                alt="newsweek-logo"
+            /></a>
+          </div>
+          <div
+            class="nav-btn col-4 d-flex justify-content-end align-items-center pt-5"
+          >
+            <button type="button" class="btn btn-sm login-btn pr-2">LOGIN</button>
+            <button type="button" class="btn btn-sm subscribe-btn pr-2">
+              SUBSCRIBE <i class="fas fa-angle-right"></i>
+            </button>
+            <button type="button" class="btn menu-btn">
+              <i class="fas fa-bars p-0"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="nav-row d-none d-lg-block position-relative">
+        <p class="corner-shape"></p>
+        <nav
+          class="pt-4"
+        >
+          <ul class="topnav">
+            <li class="nav-item nav-border">
+              <a class="nav-link" href="#">U.S.</a>
+            </li>
+            <li class="nav-item nav-border">
+              <a class="nav-link" href="#">World</a>
+            </li>
+            <li class="nav-item nav-border">
+              <a class="nav-link" href="#">Business</a>
+            </li>
+            <li class="nav-item nav-border">
+              <a class="nav-link" href="#">Tech&Science</a>
+            </li>
+            <li class="nav-item nav-border">
+              <a class="nav-link" href="#">Culture</a>
+            </li>
+            <li class="nav-item nav-border">
+              <a class="nav-link" href="#">Newsgeek</a>
+            </li>
+            <li class="nav-item nav-border">
+              <a class="nav-link" href="#">Sports</a>
+            </li>
+            <li class="nav-item nav-border">
+              <a class="nav-link" href="#">Health</a>
+            </li>
+            <li class="nav-item nav-border">
+              <a class="nav-link" href="#">The Debate</a>
+            </li>
+            <li class="nav-item nav-border">
+              <a class="nav-link" href="#">Vantage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Weather</a>
+            </li>
+            <li class="nav-item text-muted">
+              Search&nbsp;&nbsp;<i class="fas fa-search"></i>
+            </li>
+          </ul>
+        </nav> 
+      </div>
+    </header>
+
+    <hr class="header-bar" />
+    <section class="container-fluid">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-sm-12 d-md-none d-lg-none">
+            <div class="mb-2">
+              <h1 class="display-5 text-muted">TOP STORY</h1>
+            </div>
+            <div>
+              <div class="img-wrapper w-100 position-relative">
+                <img
+                  class="img-fluid w-100"
+                  src="./images/top-story-img.webp"
+                  alt="featured-stories"
+                />
+                <p class="corner-img-text">U.S.</p>
+              </div>
+              <h2 class="featured-stories-text mt-1">
+                <a href="#"
+                  >Pence to Return to White House, Not in Quarantine, After Aide
+                  Tests Positive for COVID-19</a
+                >
+              </h2>
+              <p class="featured-stories-paragraph text-muted mt-2">
+                "Vice President Pence has tested negative every single day and
+                plans to be at the White House tomorrow," a spokesperson told
+                Newsweek.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-5 col-lg">
+            <div class="mb-2">
+              <h1 class="display-6 text-muted pt-3">FEATURED STORIES</h1>
+            </div>
+            <article class="w-100">
+              <div class="img-wrapper w-100 position-relative">
+                <img
+                  class="img-fluid w-100"
+                  src="./images/featured-stories-1.webp"
+                  alt="featured-stories"
+                />
+                <p class="corner-img-text">WORLD</p>
+              </div>
+              <h2 class="featured-stories-text mt-1">
+                <a href="#">Boris Johnson Sets Out COVID-19 Road Map</a>
+              </h2>
+              <p class="featured-stories-paragraph text-muted mt-2">
+                Britain's prime minister told the public that he wanted to set
+                out 'the shape of a plan" to both beat the virus and provide the
+                first sketch of a road map for reopening society.
+              </p>
+            </article>
+            <article class="w-100 pt-4">
+              <div class="img-wrapper w-100 position-relative">
+                <img
+                  class="img-fluid w-100"
+                  src="./images/featured-stories-2.webp"
+                  alt="featured-stories"
+                />
+                <p class="corner-img-text">U.S.</p>
+              </div>
+              <h2 class="featured-stories-text mt-1">
+                <a href="#"
+                  >WA Residents Who Complained About Lockdown Violations Receive
+                  Threats</a
+                >
+              </h2>
+              <p class="featured-stories-paragraph text-muted mt-2">
+                The threats came after anti-lockdown protesters shared the
+                residents' personal information on Facebook.
+              </p>
+            </article>
+            <article class="w-100 pt-4">
+              <div class="img-wrapper w-100 position-relative">
+                <img
+                  class="img-fluid w-100"
+                  src="./images/featured-stories-3.webp"
+                  alt="featured-stories"
+                />
+                <p class="corner-img-text">U.S.</p>
+              </div>
+              <h2 class="featured-stories-text mt-1">
+                <a href="#"
+                  >Texas County Reports 87% of New Coronavirus Cases From Prison
+                  Outbreak</a
+                >
+              </h2>
+              <p class="featured-stories-paragraph text-muted mt-2">
+                The Federal Medical Center Fort Worth prison now has a total of
+                627 confirmed cases out of roughly 1,463 inmates.
+              </p>
+            </article>
+            <article class="w-100 pt-4">
+              <div class="img-wrapper w-100 position-relative">
+                <img
+                  class="img-fluid w-100"
+                  src="./images/featured-stories-4.webp"
+                  alt="featured-stories"
+                />
+                <p class="corner-img-text">WORLD</p>
+              </div>
+              <h2 class="featured-stories-text mt-1">
+                <a href="#"
+                  >Chinese State Media Calls for Building Up China's 'Nuclear
+                  Deterrent'</a
+                >
+              </h2>
+              <p class="featured-stories-paragraph text-muted mt-2">
+                "China is committed not to be the first to launch nuclear
+                weapons," the editor-in-chief of The Global Times wrote.
+              </p>
+            </article>
+            <article class="w-100 pt-4">
+              <div class="img-wrapper w-100 position-relative">
+                <img
+                  class="img-fluid w-100"
+                  src="./images/featured-stories-5.webp"
+                  alt="featured-stories"
+                />
+                <p class="corner-img-text">NEWS</p>
+              </div>
+              <h2 class="featured-stories-text mt-1">
+                <a href="#"
+                  >GOP Senator Says Congress Can't Spend Enough Money to Help
+                  Every American</a
+                >
+              </h2>
+              <p class="featured-stories-paragraph text-muted mt-2">
+                Lamar Alexander warned on Sunday that Congress can't possibly
+                appropriate enough money to help every American negatively
+                affected by the coronavirus pandemic.
+              </p>
+            </article>
+            <article class="pt-5">
+              <div class="card">
+                <div class="img-wrapper w-100 position-relative">
+                  <img
+                    class="card-img-top"
+                    src="images/sponsored-insight-r-1.webp"
+                    alt="Card image"
+                  />
+                  <p class="sponsored-img-text">SPONSORED INSIGHT</p>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title featured-stories-text">
+                    Weathering the Perfect Storm
+                  </h4>
+                  <p class="card-text featured-stories-paragraph">
+                    COVID-19 is not our only enemy. While the world confronts a
+                    pandemic, our critical infrastructure is vulnerable to
+                    cyberattack. Read this new report on where the weak points
+                    are and how to strengthen defenses against terrorists and
+                    cyber-criminals
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="pt-5">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/sponsored-insight-r-2.jpg"
+                  alt="Card image"
+                />
+                <div class="card-body">
+                  <h4 class="card-title featured-stories-text">
+                    World's Best Hospitals 2020
+                  </h4>
+                  <p class="card-text featured-stories-paragraph">
+                    Newsweek partnered with Statista Inc. to rank the leading
+                    hospitals in 21 countries
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="pt-5">
+              <div class="card">
+                <div class="img-wrapper w-100 position-relative">
+                  <p class="sponsored-img-text">SPONSORED INSIGHT</p>
+                  <img
+                    class="card-img-top"
+                    src="images/sponsored-insight-r-3.webp"
+                    alt="Card image"
+                  />
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title featured-stories-text">
+                    What is an IB Private Education and Why is it so Important?
+                  </h4>
+                  <p class="card-text featured-stories-paragraph">
+                    The aim of the IB is to offer the best possible
+                    international education for students of all backgrounds and
+                    from every part of the world. Find out more.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="pt-5">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/sponsored-insight-r-4.webp"
+                  alt="Card image"
+                />
+                <div class="card-body">
+                  <h4 class="card-title featured-stories-text">
+                    Newsweek AMPLIFY Launches Strategic Partnership Solutions
+                    for Brands
+                  </h4>
+                  <p class="card-text featured-stories-paragraph">
+                    Newsweek AMPLIFY, the company's performance marketing
+                    business unit, has launched a new program to empower digital
+                    brands with comprehensive content marketing and advertising
+                    strategies.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-7 col-lg-5">
+            <div class="media-top-story">
+            <div class="mb-2">
+              <h1 class="display-6 text-muted pt-3">TOP STORY</h1>
+            </div>
+            <article class="w-100 mb-3">
+              <div class="img-wrapper w-100 position-relative">
+                <img
+                  class="img-fluid"
+                  src="./images/top-story-img.webp"
+                  alt="featured-stories"
+                />
+                <p class="corner-img-text">U.S.</p>
+              </div>
+              <h2 class="featured-stories-text mt-1">
+                <a href="#"
+                  >Pence to Return to White House, Not in Quarantine, After Aide
+                  Tests Positive for COVID-19</a
+                >
+              </h2>
+              <p class="featured-stories-paragraph text-muted mt-2">
+                "Vice President Pence has tested negative every single day and
+                plans to be at the White House tomorrow," a spokesperson told
+                Newsweek.
+              </p>
+            </article>
+            </div>
+            <div class="text-muted mb-3">
+              <h2>HEROES OF THE PANDEMIC</h2>
+            </div>
+            <div class="row flex-md-nowrap mb-2">
+              <div class="col-12 col-md-4">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid w-100 pt-3"
+                    src="./images/pandemic-heroes-1.webp"
+                    alt="heroes-image"
+                  />
+                  <p class="heroes-label">Pandemic Heroes</p>
+                </div>
+                <h4 class="heroes-header pt-3">
+                  Organizer Helps Rebuild New York's Filipino Community Hit by
+                  COVID-19
+                </h4>
+                <p class="heroes-text text-muted pt-2">
+                  "When this whole thing started what kept me up at night is the
+                  possibility of mass casualties in our community," Riya Ortiz
+                  told Newsweek.
+                </p>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid w-100 pt-3"
+                    src="./images/pandemic-heroes-2.webp"
+                    alt="heroes-image"
+                  />
+                  <p class="heroes-label">Pandemic Heroes</p>
+                </div>
+                <h4 class="heroes-header pt-3">
+                  Tennessee Group Makes Coronavirus Face Masks for Local,
+                  International Use
+                </h4>
+                <p class="heroes-text text-muted pt-2">
+                  "We're not selling anything," Sacco said Tuesday. "Every
+                  single bit of this is donation-only or nothing."
+                </p>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="position-relative">
+                  <img
+                    class="img-fluid w-100 pt-3"
+                    src="./images/pandemic-heroes-3.webp"
+                    alt="heroes-image"
+                  />
+                  <p class="heroes-label">Pandemic Heroes</p>
+                </div>
+                <h4 class="heroes-header pt-3">
+                  Teenagers Shop for the Vulnerable During Coronavirus Emergency
+                </h4>
+                <p class="heroes-text text-muted pt-2">
+                  "I almost cried," said a user of Six Feet Supplies, a charity
+                  started by teenagers who shop for those susceptible to
+                  COVID-19.
+                </p>
+              </div>
+            </div>
+            <div class="text-muted mb-3">
+              <h2>CULTURE & TRAVEL</h2>
+            </div>
+            <div class="row flex-md-nowrap mb-2">
+              <div class="col-12 col-md-4">
+                <div class="wrapper w-100 position-relative">
+                  <img
+                    class="img-fluid w-100"
+                    src="./images/culture-and-travel-1.webp"
+                    alt="heroes-image"
+                  />
+                  <p class="heroes-label">Travel</p>
+                </div>
+                <h4 class="heroes-header pt-3">
+                  Wanderlust Stricken? The 10 Best Travel TV Shows to Watch Now
+                </h4>
+                <p class="heroes-text text-muted pt-2">
+                  Travelers can still explore the world while binge-watching
+                  these travel TV shows in home isolation. Thanks to streaming
+                  services, we can virtually send ourselves to nearly any and
+                  every part of the planet in just a few clicks.
+                </p>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wrapper w-100 position-relative">
+                  <img
+                    class="img-fluid w-100 pt-3"
+                    src="./images/culture-and-travel-2.webp"
+                    alt="heroes-image"
+                  />
+                  <p class="heroes-label">Animals</p>
+                </div>
+                <h4 class="heroes-header pt-3">
+                  Wildlife Encounters From the Safety of Your Couch
+                </h4>
+                <p class="heroes-text text-muted pt-2">
+                  From scale-covered pangolins to 170-year-old tortoises to
+                  miniature two-pound foxes, take a peek at the world's most
+                  unique creatures on every continent from the safety of your
+                  couch.
+                </p>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wrapper w-100 position-relative">
+                  <img
+                    class="img-fluid w-100 pt-3"
+                    src="./images/culture-and-travel-3.webp"
+                    alt="heroes-image"
+                  />
+                  <p class="heroes-label">Baking</p>
+                </div>
+                <h4 class="heroes-header pt-3">
+                  Bread Baking Is on the Rise: Drool-Worthy Photos Beyond
+                  Sourdough
+                </h4>
+                <p class="heroes-text text-muted pt-2">
+                  How's your sourdough starter looking? Take a look at these
+                  drool-worthy photos for baking ideas we found via Bread
+                  Instagram—some don't even require yeast (which is hard to find
+                  these days).
+                </p>
+              </div>
+            </div>
+            <div class="row pt-4">
+              <div class="col-12 mb-2">
+                <h1 class="display-6 text-muted">MORE STORIES</h1>
+              </div>
+              <div class="col-12">
+                <div class="media border-top pt-3">
+                  <img
+                    src="./images/more-stories-1.webp"
+                    alt="more-stories"
+                    class="more-stories-img mr-3"
+                  />
+                  <div class="media-body">
+                    <h4 class="opinion-text more-stories-text pb-2">
+                      McConnell Says Obama Is 'Classless' for Criticizing Trump
+                      Administration
+                    </h4>
+                    <p class="featured-stories-paragraph">
+                      The Senate majority leader made the comments during a live
+                      interview with the Trump 2020 campaign.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="media border-top pt-3 mt-3">
+                  <img
+                    src="./images/more-stories-2.webp"
+                    alt="more-stories"
+                    class="more-stories-img mr-3"
+                  />
+                  <div class="media-body">
+                    <h4 class="opinion-text more-stories-text pb-2">
+                      14 Percent of American Adults Would Refuse Coronavirus
+                      Vaccine, Poll Finds
+                    </h4>
+                    <p class="featured-stories-paragraph">
+                      Those aged 35 to 44 were the most likely to not want to be
+                      vaccinated against COVID-19, according to surveys.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="media border-top pt-3 mt-3">
+                  <img
+                    src="./images/more-stories-3.webp"
+                    alt="more-stories"
+                    class="more-stories-img mr-3"
+                  />
+                  <div class="media-body">
+                    <h4 class="opinion-text more-stories-text pb-2">
+                      Portugal Is Giving Citizenship Rights to Migrants Amid
+                      Coronavirus Pandemic
+                    </h4>
+                    <p class="featured-stories-paragraph">
+                      Portugal has extended the citizenship rights until at
+                      least July 1st in response to the pandemic.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="media border-top pt-3 mt-3">
+                  <img
+                    src="./images/more-stories-4.webp"
+                    alt="more-stories"
+                    class="more-stories-img mr-3"
+                  />
+                  <div class="media-body">
+                    <h4 class="opinion-text more-stories-text pb-2">
+                      14 Percent of American Adults Would Refuse Coronavirus
+                      Vaccine, Poll Finds
+                    </h4>
+                    <p class="featured-stories-paragraph">
+                      Those aged 35 to 44 were the most likely to not want to be
+                      vaccinated against COVID-19, according to surveys.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="media border-top pt-3 mt-3">
+                  <img
+                    src="./images/more-stories-5.webp"
+                    alt="more-stories"
+                    class="more-stories-img mr-3"
+                  />
+                  <div class="media-body">
+                    <h4 class="opinion-text more-stories-text pb-2">
+                      Part of a Chinese Rocket Weighing 18 Tons Just Crashed
+                      Into the Atlantic
+                    </h4>
+                    <p class="featured-stories-paragraph">
+                      The rocket segment is the largest piece of space debris to
+                      make an uncontrolled descent back to Earth since 1991.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="media border-top pt-3 mt-3">
+                  <img
+                    src="./images/more-stories-6.webp"
+                    alt="more-stories"
+                    class="more-stories-img mr-3"
+                  />
+                  <div class="media-body">
+                    <h4 class="opinion-text more-stories-text pb-2">
+                      Biden Under Fire from Jewish Groups Over Palestinian Aid
+                      Plans
+                    </h4>
+                    <p class="featured-stories-paragraph">
+                      ZOA representatives claimed that Biden's plan to
+                      economically re-engage with Palestine would be "partially
+                      illegal" under the 2018 Taylor Force Act.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="media border-top pt-3 mt-3">
+                  <img
+                    src="./images/more-stories-7.webp"
+                    alt="more-stories"
+                    class="more-stories-img mr-3"
+                  />
+                  <div class="media-body">
+                    <h4 class="opinion-text more-stories-text pb-2">
+                      Five Coronavirus Patients Die in Russia Hospital Fire
+                    </h4>
+                    <p class="featured-stories-paragraph">
+                      More than 150 people had to be evacuated from St George's
+                      hospital in St. Petersburg.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="media border-top pt-3 mt-3">
+                  <img
+                    src="./images/more-stories-8.webp"
+                    alt="more-stories"
+                    class="more-stories-img mr-3"
+                  />
+                  <div class="media-body">
+                    <h4 class="opinion-text more-stories-text pb-2">
+                      'Trump Death Clock' in Times Square Hits 48,000
+                    </h4>
+                    <p class="featured-stories-paragraph">
+                      Created by filmmaker Eugene Jarecki, it estimates that the
+                      death toll would have been 60 percent lower if
+                      restrictions had put in place a week earlier.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="media border-top pt-3 mt-3">
+                  <img
+                    src="./images/more-stories-9.webp"
+                    alt="more-stories"
+                    class="more-stories-img mr-3"
+                  />
+                  <div class="media-body">
+                    <h4 class="opinion-text more-stories-text pb-2">
+                      LA Sheriff Says Inmates Infected Themselves With
+                      Coronavirus
+                    </h4>
+                    <p class="featured-stories-paragraph">
+                      Sheriff Alex Villanueva said inmates thought contracting
+                      coronavirus was "a way to force our hand and somehow
+                      release more inmates out of our jail environment."
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="media border-top pt-3 mt-3">
+                  <img
+                    src="./images/more-stories-10.webp"
+                    alt="more-stories"
+                    class="more-stories-img mr-3"
+                  />
+                  <div class="media-body">
+                    <h4 class="opinion-text more-stories-text pb-2">
+                      Thousands Defy California's Shelter-in-Place Order to
+                      Flock to Rodeo
+                    </h4>
+                    <p class="featured-stories-paragraph">
+                      Officials in Shasta County condemned the event, saying it
+                      had caught Gov. Gavin Newsom's attention and caused the
+                      delay of the county's reopening of restaurants and certain
+                      businesses
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="media border-top pt-3 mt-3">
+                  <img
+                    src="./images/more-stories-11.webp"
+                    alt="more-stories"
+                    class="more-stories-img mr-3"
+                  />
+                  <div class="media-body">
+                    <h4 class="opinion-text more-stories-text pb-2">
+                      Race Between Republicans and Democrats to Control the
+                      Senate Is a Dead Heat
+                    </h4>
+                    <p class="featured-stories-paragraph">
+                      GOP incumbents in Arizona, North Carolina, Colorado and
+                      Maine are lagging behind their Democratic challengers in
+                      recent polls.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg">
+            <div class="mb-2 col-12">
+              <h1 class="display-6 text-muted pt-3">OPINION</h1>
+            </div>
+            <div class="media col-12 pt-2 pb-2">
+              <img
+                src="./images/opinion-img-1.webp"
+                alt="opinion"
+                class="opinion-img mr-3 rounded-circle"
+              />
+              <div class="media-body">
+                <p class="opinion-text">
+                  <a href="#"
+                    >We Ignore Ethical Problems With Surrogacy at Our Own
+                    Peril</a
+                  >
+                </p>
+                <h4 class="opinion-header pt-1">BY AUSTIN RUSE</h4>
+              </div>
+            </div>
+            <hr />
+            <div class="media col-12 pt-2 pb-2 border-top">
+              <img
+                src="./images/opinion-img-2.webp"
+                alt="opinion"
+                class="opinion-img mr-3 rounded-circle"
+              />
+              <div class="media-body">
+                <p class="opinion-text">
+                  <a href="#"
+                    >What Does Mom Want on Mother's Day? Not to Be Wrongfully
+                    Fired, for a Start</a
+                  >
+                </p>
+                <h4 class="opinion-header pt-1">BY JOAN WILLIAMS</h4>
+              </div>
+            </div>
+            <hr />
+            <div class="media col-12 pt-2 pb-2 border-top">
+              <img
+                src="./images/opinion-img-3.webp"
+                alt="opinion"
+                class="opinion-img mr-3 rounded-circle"
+              />
+              <div class="media-body">
+                <p class="opinion-text">
+                  <a href="#">Child Care Is an Essential Workforce</a>
+                </p>
+                <h4 class="opinion-header pt-1">
+                  BY JASON GRUMET AND LINDA K. SMITH
+                </h4>
+              </div>
+            </div>
+            <hr />
+            <div class="media col-12 pt-2 pb-2 border-top">
+              <img
+                src="./images/opinion-img-4.webp"
+                alt="opinion"
+                class="opinion-img mr-3 rounded-circle"
+              />
+              <div class="media-body">
+                <p class="opinion-text">
+                  <a href="#"
+                    >I'm an Evangelical Fighting for the Catholic School
+                    System</a
+                  >
+                </p>
+                <h4 class="opinion-header pt-1">BY CHARLIE KIRK</h4>
+              </div>
+            </div>
+            <div class="col-12 mt-5 text-muted">
+              <h1>THE DEBATE</h1>
+              <p class="border-bottom-danger"></p>
+            </div>
+            <div class="col-12">
+              <div class="media mt-3">
+                <img
+                  src="./images/the-debate-1.webp"
+                  alt="the-debate"
+                  class="the-debate-img mr-3 pt-1"
+                />
+                <div class="media-body pt-1">
+                  <h4 class="opinion-text cursor-pointer">
+                    The Unraveling of the Deep State's Coup Against President
+                    Trump
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-3"><p class="border-bottom-debate"></p></div>
+            <div class="media w-100 p-3">
+              <div class="media-body">
+                <h4 class="opinion-text cursor-pointer">BY JODY HICE</h4>
+              </div>
+              <img
+                src="images/the-debate-right-img-2.webp"
+                alt="the-debate"
+                class="ml-3 the-debate img-fluid rounded-circle"
+              />
+            </div>
+            <p class="the-debate-icon">VS</p>
+            <div class="col-12 mt-3">
+              <p class="border-bottom-danger-2"></p>
+            </div>
+            <div class="col-12">
+              <div class="media mt-3">
+                <img
+                  src="./images/the-debate-1.webp"
+                  alt="the-debate"
+                  class="the-debate-img mr-3 pt-1"
+                />
+                <div class="media-body pt-1">
+                  <h4 class="opinion-text cursor-pointer">
+                    President Trump Has Weaponized the Justice Department
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-3"><p class="border-bottom-debate"></p></div>
+            <div class="media w-100 p-3">
+              <div class="media-body">
+                <h4 class="opinion-text cursor-pointer">BY ERIC SWALWELL</h4>
+              </div>
+              <img
+                src="images/the-debate-right-img-1.webp"
+                alt="the-debate"
+                class="ml-3 the-debate img-fluid rounded-circle"
+              />
+            </div>
+            <div class="container-fluid">
+              <div class="row pt-4">
+                <div class="col-12 mb-2">
+                  <h1 class="display-6 text-muted">LATEST NEWS</h1>
+                </div>
+                <div
+                  class="col-12 d-flex flex-md-column justify-content-center"
+                >
+                  <div class="media border-top pt-2">
+                    <img
+                      src="./images/latest-news-1.webp"
+                      alt="more-stories"
+                      class="sports-img mr-3"
+                    />
+                    <div class="media-body">
+                      <h4 class="opinion-text pb-2">
+                        <a href="#"
+                          >Comet SWAN: How and When to Watch Green Glowing Space
+                          Rock Fly Past Earth</a
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-12 d-flex flex-md-column justify-content-center"
+                >
+                  <div class="media border-top pt-2">
+                    <img
+                      src="./images/latest-news-2.webp"
+                      alt="more-stories"
+                      class="sports-img mr-3"
+                    />
+                    <div class="media-body">
+                      <h4 class="opinion-text pb-2">
+                        <a href="#"
+                          >Comet SWAN: How and When to Watch Green Glowing Space
+                          Rock Fly Past Earth</a
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-12 d-flex flex-md-column justify-content-center"
+                >
+                  <div class="media border-top pt-2">
+                    <img
+                      src="./images/latest-news-3.webp"
+                      alt="more-stories"
+                      class="sports-img mr-3"
+                    />
+                    <div class="media-body">
+                      <h4 class="opinion-text pb-2">
+                        <a href="#"
+                          >Comet SWAN: How and When to Watch Green Glowing Space
+                          Rock Fly Past Earth</a
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-12 d-flex flex-md-column justify-content-center"
+                >
+                  <div class="media border-top pt-2">
+                    <img
+                      src="./images/latest-news-4.webp"
+                      alt="more-stories"
+                      class="sports-img mr-3"
+                    />
+                    <div class="media-body">
+                      <h4 class="opinion-text pb-2">
+                        <a href="#"
+                          >Comet SWAN: How and When to Watch Green Glowing Space
+                          Rock Fly Past Earth</a
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-12 d-flex flex-md-column justify-content-center"
+                >
+                  <div class="media border-top pt-2">
+                    <img
+                      src="./images/latest-news-5.webp"
+                      alt="more-stories"
+                      class="sports-img mr-3"
+                    />
+                    <div class="media-body">
+                      <h4 class="opinion-text pb-2">
+                        <a href="#"
+                          >Comet SWAN: How and When to Watch Green Glowing Space
+                          Rock Fly Past Earth</a
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+               
+                <div class="container">
+                  <div
+                    class="col-12 pt-5 d-flex flex-md-row justify-content-center mx-auto lead"
+                  >
+                    <div class="pt-4">
+                      <div class="card insight-card">
+                        <div class="wrapper position-relative">
+                          <img
+                            class="card-img-top"
+                            src="images/sponsored-insight-l-1.jpg"
+                            alt="Card image"
+                          />
+                          <p class="sponsored-img-text-1">SPONSORED INSIGHT</p>
+                        </div>
+                        <div class="card-body p-0 pt-1">
+                          <h4 class="card-title px-4 featured-stories-text">
+                            Weathering the Perfect Storm
+                          </h4>
+                          <p class="card-text px-4 featured-stories-paragraph">
+                            COVID-19 is not our only enemy. While the world
+                            confronts a pandemic, our critical infrastructure is
+                            vulnerable to cyberattack. Read this new report on
+                            where the weak points are and how to strengthen
+                            defenses against terrorists and cyber-criminals
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="sign-up d-flex flex-md-row justify-content-center mx-auto"
+                >
+                  <div class="newsletter-media bg-light p-3 ml-3 mr-3 mt-4 border">
+                    <div class="mb-3">
+                      <img
+                        class="newsweek-favicon mr-2"
+                        src="/images/newsweek-favicon.png"
+                        alt="newsweek-favicon"
+                      />
+                      <p>SIGN UP FOR OUR NEWSLETTER</p>
+                    </div>
+                    <div class="sign-up-media">
+                      <button class="btn btn-dark btn-md mb-3" type="button">
+                        SIGN UP&nbsp;<i class="fas fa-angle-right"></i>
+                      </button>
+                      <p class="newsweek-txt">Update your preferences »</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 pt-5 d-flex flex-md-row justify-content-center mx-auto"
+                >
+                  <div class="pt-4">
+                    <div class="card insight-card">
+                      <div class="position-relative">
+                        <img
+                          class="card-img-top"
+                          src="images/sponsored-insight-l-2.webp"
+                          alt="Card image"
+                        />
+                        <p class="sponsored-img-text-1">SPONSORED INSIGHT</p>
+                      </div>
+                      <div class="card-body p-0 pt-1">
+                        <h4 class="card-title px-4 featured-stories-text">
+                          Weathering the Perfect Storm
+                        </h4>
+                        <p class="card-text px-4 featured-stories-paragraph">
+                          COVID-19 is not our only enemy. While the world
+                          confronts a pandemic, our critical infrastructure is
+                          vulnerable to cyberattack. Read this new report on
+                          where the weak points are and how to strengthen
+                          defenses against terrorists and cyber-criminals
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 pt-5 d-flex flex-md-row justify-content-center mx-auto"
+                >
+                  <div class="pt-4">
+                    <div class="card insight-card">
+                      <div class="position-relative">
+                        <img
+                          class="card-img-top"
+                          src="images/sponsored-insight-l-3.webp"
+                          alt="Card image"
+                        />
+                        <p class="sponsored-img-text-1">SPONSORED INSIGHT</p>
+                      </div>
+                      <div class="card-body p-0 pt-1">
+                        <h4 class="card-title px-4 featured-stories-text">
+                          Weathering the Perfect Storm
+                        </h4>
+                        <p class="card-text px-4 featured-stories-paragraph">
+                          COVID-19 is not our only enemy. While the world
+                          confronts a pandemic, our critical infrastructure is
+                          vulnerable to cyberattack. Read this new report on
+                          where the weak points are and how to strengthen
+                          defenses against terrorists and cyber-criminals
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 pt-5 d-flex flex-md-row justify-content-center mx-auto"
+                >
+                  <div class="pt-4">
+                    <div class="card insight-card">
+                      <div class="position-relative">
+                        <img
+                          class="card-img-top"
+                          src="images/sponsored-insight-l-4.webp"
+                          alt="Card image"
+                        />
+                        <p class="sponsored-img-text-1">SPONSORED INSIGHT</p>
+                      </div>
+                      <div class="card-body p-0 pt-1">
+                        <h4 class="card-title px-4 featured-stories-text">
+                          Weathering the Perfect Storm
+                        </h4>
+                        <p class="card-text px-4 featured-stories-paragraph">
+                          COVID-19 is not our only enemy. While the world
+                          confronts a pandemic, our critical infrastructure is
+                          vulnerable to cyberattack. Read this new report on
+                          where the weak points are and how to strengthen
+                          defenses against terrorists and cyber-criminals
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 pt-5 d-flex flex-md-row justify-content-center mx-auto"
+                >
+                  <div class="pt-4">
+                    <div class="card insight-card">
+                      <div class="position-relative">
+                        <img
+                          class="card-img-top"
+                          src="images/sponsored-insight-r-2.jpg"
+                          alt="Card image"
+                        />
+                        <p class="sponsored-img-text-1">SPONSORED INSIGHT</p>
+                      </div>
+                      <div class="card-body p-0 pt-1">
+                        <h4 class="card-title px-4 featured-stories-text">
+                          Weathering the Perfect Storm
+                        </h4>
+                        <p class="card-text px-4 featured-stories-paragraph">
+                          COVID-19 is not our only enemy. While the world
+                          confronts a pandemic, our critical infrastructure is
+                          vulnerable to cyberattack. Read this new report on
+                          where the weak points are and how to strengthen
+                          defenses against terrorists and cyber-criminals
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 pt-5 d-flex flex-md-row justify-content-center mx-auto"
+                >
+                  <div class="pt-4">
+                    <div class="card insight-card">
+                      <div class="position-relative">
+                        <img
+                          class="card-img-top"
+                          src="images/rankings.webp"
+                          alt="Card image"
+                        />
+                        <p class="sponsored-img-text-1">RANKINGS</p>
+                      </div>
+                      <div class="card-body p-0 pt-1">
+                        <h4 class="card-title px-4 featured-stories-text">
+                          Weathering the Perfect Storm
+                        </h4>
+                        <p class="card-text px-4 featured-stories-paragraph">
+                          COVID-19 is not our only enemy. While the world
+                          confronts a pandemic, our critical infrastructure is
+                          vulnerable to cyberattack. Read this new report on
+                          where the weak points are and how to strengthen
+                          defenses against terrorists and cyber-criminals
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <article class="container-fluid">
+      <div class="mb-3 d-flex justify-content-center border-bottom mt-5 pb-2">
+        <img
+          class="newsweek-favicon mr-2"
+          src="/images/newsweek-favicon.png"
+          alt="newsweek-favicon"
+        />
+        <h3 class="magazine-text pt-2">IN THE MAGAZINE</h3>
+      </div>
+      <div class="row pt-4">
+        <div class="col-md-3">
+          <div class="wrapper w-100 position-relative" >
+            <img
+              class="img-fluid w-100"
+              src="./images/in-the-mag-img-1.webp"
+              alt="magazine-img"
+            />
+            <p class="corner-img-text-2">MAY 22 ISSUE</p>
+            <p class="see-all-link pb-4 text-center">
+              <a href="#"
+                >SEE ALL FEATURES&nbsp;<i class="fas fa-angle-right"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wrapper w-100 position-relative" >
+            <img
+              class="img-fluid w-100 mb-2 pt-3"
+              src="./images/in-the-mag-img-2.webp"
+              alt="magazine-img"
+            />
+            <p class="magazine-label-2 pt-2">
+              <span class="magazine-label p-1 d-inline-block">COVER</span>
+              <span class="magazine-label-2 p-1 d-inline-block">HEALTH</span>
+            </p>
+            <p class="featured-stories-text-2 mt-2 pt-2">
+              <a href="#"
+                >Would You Let Government Track Your Smartphone To Help U.S.
+                Reopen Sooner?</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100 mb-2 pt-3"
+              src="./images/in-the-mag-img-3.webp"
+              alt="magazine-img"
+            />
+            <p class="magazine-label-2 pt-2">
+              <span class="magazine-label p-1 d-inline-block">FEATURES</span>
+              <span class="magazine-label-2 p-1 d-inline-block">HEALTH</span>
+            </p>
+            <p class="featured-stories-text-2 mt-2 pt-2">
+              <a href="#"
+                >Without 100,000 Virus Contact Tracers, "We're Going to Be in
+                Big Trouble"</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100 mb-2 pt-3"
+              src="./images/in-the-mag-img-4.webp"
+              alt="magazine-img"
+            />
+            <p class="magazine-label-2 pt-2">
+              <span class="magazine-label p-1 d-inline-block">FEATURES</span>
+              <span class="magazine-label-2 p-1 d-inline-block">BUSINESS</span>
+            </p>
+            <p class="featured-stories-text-2 mt-2 pt-2">
+              <a href="#"
+                >Why the U.S. Economy May Never Be the Same Again After
+                Coronavirus</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100 mb-2"
+              src="./images/in-the-mag-img-8.webp"
+              alt="magazine-img"
+            />
+            <p class="magazine-label-2 pt-2">
+              <span class="magazine-label p-1 d-inline-block">PERISCOPE</span>
+              <span class="magazine-label-2 p-1 d-inline-block">CULTURE</span>
+            </p>
+            <p class="featured-stories-text-2 mt-2 pt-2">
+              <a href="#"
+                >Stimulus Check Isn't Enough? Here Are Five Ways to Come Up With
+                Extra Cash</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100 mb-2"
+              src="./images/in-the-mag-img-5.webp"
+              alt="magazine-img"
+            />
+            <p class="magazine-label-2 pt-2">
+              <span class="magazine-label p-1 d-inline-block">HORIZONS</span>
+              <span class="magazine-label-2 p-1 d-inline-block">CULTURE</span>
+            </p>
+            <p class="featured-stories-text-2 mt-2 pt-2">
+              <a href="#"
+                >Bestselling Author Judith Warner on How Parents Screw Up Middle
+                Schoolers</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100 mb-2"
+              src="./images/in-the-mag-img-6.webp"
+              alt="magazine-img"
+            />
+            <p class="magazine-label-2 pt-2">
+              <span class="magazine-label p-1 d-inline-block">DOWNTIME</span>
+              <span class="magazine-label-2 p-1 d-inline-block">CULTURE</span>
+            </p>
+            <p class="featured-stories-text-2 mt-2 pt-2">
+              <a href="#"
+                >With 'Big Summer,' Jennifer Weiner is Still the Queen of the
+                Summer Read</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100 mb-2"
+              src="./images/in-the-mag-img-7.webp"
+              alt="magazine-img"
+            />
+            <p class="corner-img-text-3">IN FOCUS</p>
+            <p class="featured-stories-text mt-4">
+              <a href="#">SALUTE TO THE STARS</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="container-fluid">
+      <div class="mb-3 d-flex justify-content-center border-bottom mt-5 pb-2">
+        <img
+          class="newsweek-favicon mr-2"
+          src="/images/newsweek-favicon.png"
+          alt="newsweek-favicon"
+        />
+        <p class="magazine-text pt-2">EDITOR'S PICK</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="pt-3">
+            <div class="img-wrapper w-100 position-relative">
+              <img
+                class="img-fluid w-100"
+                src="./images/editor's-pick-1.webp"
+                alt="featured-stories"
+              />
+              <p class="corner-img-text">U.S.</p>
+            </div>
+            <h2 class="featured-stories-text mt-1">
+              <a href="#"
+                >Trump's Firing of Steve Linick an 'Unlawful Act of Retaliation'
+                for Pompeo</a
+              >
+            </h2>
+            <p class="featured-stories-paragraph text-muted mt-2">
+              Meanwhile, Democratic lawmakers announced Saturday they are
+              launching an investigation into the ouster.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="pt-3">
+            <div class="img-wrapper w-100 position-relative">
+              <img
+                class="img-fluid w-100"
+                src="./images/editor's-pick-2.webp"
+                alt="featured-stories"
+              />
+              <p class="corner-img-text">WORLD</p>
+            </div>
+            <h2 class="featured-stories-text mt-1">
+              <a href="#"
+                >China Will 'Nuke Bomb' Apple Over Huawei Penalties: State
+                Media</a
+              >
+            </h2>
+            <p class="featured-stories-paragraph text-muted mt-2">
+              The Chinese government may enforce several "countermeasures"
+              against U.S. companies in retaliation for the Trump
+              administration's plans to crack down on shipments of
+              semiconductors to Huawei from chipmakers worldwide.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="pt-3">
+            <div class="img-wrapper w-100 position-relative">
+              <img
+                class="img-fluid w-100"
+                src="./images/editor's-pick-3.webp"
+                alt="featured-stories"
+              />
+              <p class="corner-img-text">WORLD</p>
+            </div>
+            <h2 class="featured-stories-text mt-1">
+              <a href="#"
+                >Italians Are Losing Faith in the EU as Allies Remain Deaf to
+                Calls for Help</a
+              >
+            </h2>
+            <p class="featured-stories-paragraph text-muted mt-2">
+              But where federal help has arrived, assistance from Italy's
+              European partners has been slow through the pandemic, underscoring
+              a tenuous relationship between one of the hardest-hit nations and
+              its neighboring allies
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="pt-3">
+            <div class="img-wrapper w-100 position-relative">
+              <img
+                class="img-fluid w-100"
+                src="./images/editor's-pick-4.webp"
+                alt="featured-stories"
+              />
+              <p class="corner-img-text">U.S.</p>
+            </div>
+            <h2 class="featured-stories-text mt-1">
+              <a href="#"
+                >Ford Motor Company to Offer COVID-19 Testing for Symptomatic
+                Workers</a
+              >
+            </h2>
+            <p class="featured-stories-paragraph text-muted mt-2">
+              Ford Motor Company signed contracts with four health systems in
+              southeast Michigan, Missouri, Kentucky and Illinois to get quick
+              testing for symptomatic employees.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pt-3">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="pt-3">
+            <div class="img-wrapper w-100 position-relative">
+              <img
+                class="img-fluid w-100"
+                src="./images/editor's-pick-5.webp"
+                alt="featured-stories"
+              />
+              <p class="corner-img-text">NEWS</p>
+            </div>
+            <h2 class="featured-stories-text mt-1">
+              <a href="#"
+                >New York Barber Contracts COVID-19 After Secretly Cutting Hair
+                in His Home</a
+              >
+            </h2>
+            <p class="featured-stories-paragraph text-muted mt-2">
+              An upstate New York barber accused of cutting hair out of his home
+              during the shutdown has contracted the coronavirus.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="pt-3">
+            <div class="img-wrapper w-100 position-relative">
+              <img
+                class="img-fluid w-100"
+                src="./images/editor's-pick-6.webp"
+                alt="featured-stories"
+              />
+              <p class="corner-img-text">CULTURE</p>
+            </div>
+            <h2 class="featured-stories-text mt-1">
+              <a href="#"
+                >Remembering Fred Willard With Some of His Quippiest Quotes</a
+              >
+            </h2>
+            <p class="featured-stories-paragraph text-muted mt-2">
+              Fred Willard was a comedic genius whose work will live on for
+              years. These quotes are all the proof you need. Well, them and his
+              amazing body of work.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="pt-3">
+            <div class="img-wrapper w-100 position-relative">
+              <img
+                class="img-fluid w-100"
+                src="./images/editor's-pick-7.webp"
+                alt="featured-stories"
+              />
+              <p class="corner-img-text">WORLD</p>
+            </div>
+            <h2 class="featured-stories-text mt-1">
+              <a href="#"
+                >U.K. Launches 'COVID Dogs' Trial Aimed at Sniffing Out COVID-19
+                in Humans</a
+              >
+            </h2>
+            <p class="featured-stories-paragraph text-muted mt-2">
+              Officials hope the specially trained dogs could could sniff out up
+              to 250 people an hour for coronavirus before symptoms emerge.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="pt-3">
+            <div class="img-wrapper w-100 position-relative">
+              <img
+                class="img-fluid w-100"
+                src="./images/editor's-pick-8.webp"
+                alt="featured-stories"
+              />
+              <p class="corner-img-text">U.S.</p>
+            </div>
+            <h2 class="featured-stories-text mt-1">
+              <a href="#"
+                >J.C. Penney, Which Survived the Great Depression, Succumbs to
+                Lockdowns</a
+              >
+            </h2>
+            <p class="featured-stories-paragraph text-muted mt-2">
+              The 188-year-old retailer announced Friday afternoon that it would
+              be filing for Chapter 11 bankruptcy, and closing a number of its
+              stores.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom p-3"></div>
+    </article>
+
+    <section class="container-fluid">
+      <h2 class="section-heading pt-4 pb-2">U.S.</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/us.section-img-1.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >Thirty-Five Percent Willing to Visit Local Businesses Within a
+                Month: Poll</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/us.section-img-2.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >Law Graduates Seek to Bypass Bar Exam to Practice in
+                Wisconsin</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-12">
+            <div class="media">
+              <img
+                src="./images/us.section-img-r-1.webp"
+                alt="more-stories"
+                class="sports-img mr-3"
+              />
+              <div class="media-body pb-4">
+                <h4 class="opinion-text pb-2">
+                  <a href="#"
+                    >New Jersey Says Complaints About Price Gouging, Fraud
+                    Tripled Amid Pandemic</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/us.section-img-r-2.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2 pb-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#"
+                    >As NYC Residents Pack Bars and Beaches, Officials Worry of
+                    COVID-19 Rebound</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/us.section-img-r-3.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#"
+                    >Martin Shkreli's Plea for Early Prison Release Rejected by
+                    Judge</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom p-3"></div>
+    </section>
+
+    <section class="container-fluid">
+      <h2 class="section-heading pt-4 pb-2">World</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/world-img-1.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >Thirty-Five Percent Willing to Visit Local Businesses Within a
+                Month: Poll</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/world-img-2.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >Law Graduates Seek to Bypass Bar Exam to Practice in
+                Wisconsin</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-12">
+            <div class="media">
+              <img
+                src="./images/world-img-r-1.webp"
+                alt="more-stories"
+                class="sports-img mr-3"
+              />
+              <div class="media-body pb-4">
+                <h4 class="opinion-text pb-2">
+                  <a href="#"
+                    >New Jersey Says Complaints About Price Gouging, Fraud
+                    Tripled Amid Pandemic</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/world-img-r-2.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2 pb-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#"
+                    >As NYC Residents Pack Bars and Beaches, Officials Worry of
+                    COVID-19 Rebound</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/world-img-r-3.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#"
+                    >Martin Shkreli's Plea for Early Prison Release Rejected by
+                    Judge</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom p-3"></div>
+    </section>
+
+    <section class="container-fluid">
+      <h2 class="section-heading pt-4 pb-2">Business</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/business-img-1.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >Thirty-Five Percent Willing to Visit Local Businesses Within a
+                Month: Poll</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/business-img-2.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >Law Graduates Seek to Bypass Bar Exam to Practice in
+                Wisconsin</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-12">
+            <div class="media">
+              <img
+                src="./images/business-img-r-1.webp"
+                alt="more-stories"
+                class="sports-img mr-3"
+              />
+              <div class="media-body pb-4">
+                <h4 class="opinion-text pb-2">
+                  <a href="#"
+                    >New Jersey Says Complaints About Price Gouging, Fraud
+                    Tripled Amid Pandemic</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/business-img-r-2.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2 pb-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#"
+                    >As NYC Residents Pack Bars and Beaches, Officials Worry of
+                    COVID-19 Rebound</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/business-img-r-3.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#"
+                    >Martin Shkreli's Plea for Early Prison Release Rejected by
+                    Judge</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom p-3"></div>
+    </section>
+
+    <section class="container-fluid">
+      <h2 class="section-heading pt-4 pb-2">Tech & Science</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/tech-and-science-img-1.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >Trump Introduces 'Super-Duper Missile' at Unveiling of Space
+                Force's Flag</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/tech-and-science-img-2.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >NASA Chief Jim Bridenstine Lays out 'Artemis Accords' Ahead of
+                Moon Return</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-12">
+            <div class="media">
+              <img
+                src="./images/tech-and-science-img-r-1.webp"
+                alt="more-stories"
+                class="sports-img mr-3"
+              />
+              <div class="media-body pb-4">
+                <h4 class="opinion-text pb-2">
+                  <a href="#"
+                    >Biggest Shield Volcano in the World Is Twice As Big As
+                    Hawaii's Mauna Loa</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/tech-and-science-img-r-2.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2 pb-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#"
+                    >Watch This Drone Footage of Germany Blowing up Two Nuclear
+                    Cooling Towers</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/tech-and-science-img-r-3.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#"
+                    >Huge Saber-Toothed Anchovies Emerged After Dinosaurs Went
+                    Extinct</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom p-3"></div>
+    </section>
+
+    <section class="container-fluid">
+      <h2 class="section-heading pt-4 pb-2">Culture</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/culture-img-1.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >Who Is Lilly Wachowski? Director Rips Ivanka Trump Over
+                'Matrix' Reference</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/culture-img-2.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >'Batwoman' Streaming: How to Watch Online and Why The Show's
+                Not on Netflix</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-12">
+            <div class="media">
+              <img
+                src="./images/culture-img-r-1.webp"
+                alt="more-stories"
+                class="sports-img mr-3"
+              />
+              <div class="media-body pb-4">
+                <h4 class="opinion-text pb-2">
+                  <a href="#"
+                    >'Snowpiercer' on TNT: How the TV Spin-Off Differs from the
+                    Movie</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/culture-img-r-2.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2 pb-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#"
+                    >As NYC Residents Pack Bars and Beaches, Officials Worry of
+                    COVID-19 Rebound</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/culture-img-r-3.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#"
+                    >'Graduate Together 2020' Line-Up: All The Stars in the
+                    Graduation Special</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom p-3"></div>
+    </section>
+
+    <section class="container-fluid">
+      <h2 class="section-heading pt-4 pb-2">Sports</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/sports-img-1.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >Live NASCAR Cup Racing Returns Sunday: How to Watch the
+                Darlington Race</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="wrapper w-100 position-relative">
+            <img
+              class="img-fluid w-100"
+              src="./images/sports-img-2.webp"
+              alt="magazine-img"
+            />
+            <p class="featured-stories-text-3 mt-3">
+              <a href="#"
+                >'The Last Dance' Episodes 9 and 10: Where to Watch ESPN's MJ
+                Documentary</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-12">
+            <div class="media">
+              <img
+                src="./images/sports-img-r-1.webp"
+                alt="more-stories"
+                class="sports-img mr-3"
+              />
+              <div class="media-body pb-4">
+                <h4 class="opinion-text pb-2">
+                  <a href="#"
+                    >TaylorMade Driving Relief: Start Time, How to Watch and
+                    Format Explained</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/sports-img-r-2.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2 pb-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#">
+                    Michigan Governor Whitmer Says a Vaccine is Needed Before
+                    Filling Stadiums</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media border-top">
+              <img
+                src="./images/sports-img-r-3.webp"
+                alt="more-stories"
+                class="sports-img mr-3 pt-2"
+              />
+              <div class="media-body">
+                <h4 class="opinion-text pt-2 pb-2">
+                  <a href="#"
+                    >'Friday Night SmackDown' Results (5/15): Otis to Appear on
+                    Miz TV</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom p-3"></div>
+    </section>
+
+    <section class="container-fluid mx-auto px-5">
+      <div class="row">
+        <div class="col-12 col-lg-7">
+          <div class="col-12">
+            <h4 class="subscribe-text pb-3 pt-3">Subscribe</h4>
+          </div>
+          <div class="d-flex flex-column flex-md-row align-items-center">
+            <div class="position-relative subscribe-img-text">
+              <img src="./images/subscribe-img-2.jpg" alt="subscribe-text" />
+              <img
+                class="subscribe-img"
+                src="./images/subcribe-img.jpg"
+                alt="subscribe-img"
+              />
+            </div>
+            <div class="subscribe-text-2 text-center text-md-left">
+              <h3 class="subscribe-header pb-3">
+                In-depth Stories You Don't See Elsewhere About Topics You Want
+                to Read!
+              </h3>
+              <p class="subscribe-text-3 pb-4">
+                All Access + Weekly Delivery. Choose A Membership That's Perfect
+                for You!
+              </p>
+              <button class="btn subscribe-btn-2" type="button">
+                SUBSCRIBE <i class="fas fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5">
+          <div class="col-12">
+            <h4 class="subscribe-text pb-2 pt-3">Newsletter</h4>
+          </div>
+          <div class="card newsletter-card">
+            <div class="row">
+              <div class="col-md-5 d-md-flex align-items-stretch d-none">
+                <img
+                  class="img-fluid newsletter-img h-100 w-100"
+                  src="./images/newsletter-img.png"
+                  alt="newsletter-img"
+                />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title subscribe-header">The Starting 5</h5>
+                  <p class="card-text subscribe-text-3 mb-3">
+                    See why nearly a quarter of a million subscribers begin
+                    their day with the Starting 5.
+                  </p>
+                  <input
+                    type="text"
+                    placeholder="Email address"
+                    class="subscribe-text-3 form-control w-75"
+                  />
+                  <button
+                    class="btn subscribe-btn-2 btn-block mt-3"
+                    type="button"
+                  >
+                    FREE SIGN UP <i class="fas fa-angle-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="mt-5" />
+    <footer class="container-fluid">
+      <div class="d-flex flex-column flex-md-row flex-nowrap border-bottom pb-2">
+        <div class="">
+          <img
+            class="newsweek-footer-logo mr-3"
+            src="./images/footer-newsweek-logo.PNG"
+            alt="footer-newsweek-logo"
+          />
+        </div>
+        <p class="copyright-text align-self-start align-self-md-end">&copy; 2020 NEWSWEEK</p>
+        <div class="social-icons pt-1 align-self-md-end flex-grow-1 d-flex justify-content-start justify-content-md-end">
+          <a class="text-muted px-2" href="#"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a class="text-muted px-2" href="#"><i class="fab fa-twitter"></i></a>
+          <a class="text-muted px-2" href="#"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="text-muted px-2" href="#"><i class="fab fa-tumblr"></i></a>
+          <a class="text-muted px-2" href="#"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mb-2">
+          <ul class="d-flex pt-3 flex-wrap">
+            <li class="pr-3">Editions:</li>
+            <li>
+              <a class="footer-links pr-3 pl-2 ml-0 border-right" href="#"
+                >U.S.Edition</a
+              >
+            </li>
+            <li>
+              <a class="footer-links pr-3 pl-2 ml-0 border-right" href="#"
+                >日本</a
+              >
+            </li>
+            <li>
+              <a class="footer-links pr-3 pl-2 ml-0 border-right" href="#"
+                >Pakistan</a
+              >
+            </li>
+            <li>
+              <a class="footer-links pr-3 pl-2 ml-0 border-right" href="#"
+                >Polska</a
+              >
+            </li>
+            <li><a class="footer-links pr-3 pl-2 ml-0" href="#">Romania</a></li>
+          </ul>
+        </div>
+        <div class="row col-12">
+          <ul class="d-flex footer-links-2 flex-wrap justify-content-between">
+            <li class="pr-2 pl-3 ml-0 border-right">
+              <a href="#">About Us</a>
+            </li>
+            <li class="pr-2 pl-3 ml-0 border-right">
+              <a href="#">Corrections</a>
+            </li>
+            <li class="pr-2 pl-3 ml-0 border-right">
+              <a href="#">Contact Us</a>
+            </li>
+            <li class="pr-2 pl-3 ml-0 border-right">
+              <a href="#">Editorial Guidelines</a>
+            </li>
+            <li class="pr-2 pl-3 ml-0 border-right">
+              <a href="#">Advertise</a>
+            </li>
+            <li class="pr-2 pl-3 ml-0 border-right">
+              <a href="#">Copyright</a>
+            </li>
+            <li class="pr-2 pl-3 ml-0 border-right">
+              <a href="#">Terms & Conditions</a>
+            </li>
+            <li class="pr-2 pl-3 ml-0 border-right">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="pr-2 pl-3 ml-0 border-right">
+              <a href="#">Cookie Policy</a>
+            </li>
+            <li class="pr-2 pl-3 ml-0 border-right">
+              <a href="#">Terms of Sale</a>
+            </li>
+            <li class="pr-2 pl-3 ml-0 border-right"><a href="#">Archive</a></li>
+          </ul>
+          <p class="footer-links-2 pl-3 mt-2">
+            <a href="#">Consent preferences</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </section>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
