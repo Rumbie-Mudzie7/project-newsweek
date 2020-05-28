@@ -40,7 +40,7 @@ The Newsweek  cloning project is mainly based on integrating the Bootstrap frame
 
 Contributions, issues and feature requests are welcome!
 ​
-Feel free to check the [issues page](https://github.com/mugberto/the-next-web-page-clone/issues).
+Feel free to check the [issues page](https://github.com/Rumbie-Mudzie7/project-newsweek/issues).
 ​
 
 ## Show your support
