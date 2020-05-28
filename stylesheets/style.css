@@ -396,6 +396,14 @@ header {
   max-width: 25rem;
 }
 
+.newsletter-media {
+  width: 20rem;
+}
+
+.sign-up-media {
+  padding: 1rem 0 1rem 0;
+}
+
 .subscribe-img {
   position: absolute;
   top: 1rem;

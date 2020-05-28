@@ -17,13 +17,3 @@
     padding: 1rem 0 1rem 0;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .newsletter-media {
-    max-width: 50%;
-  }
-
-  .sign-up-media {
-    padding: 1rem 0 1rem 0;
-  }
-}
